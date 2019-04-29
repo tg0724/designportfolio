@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Index</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Montserrat" rel="stylesheet">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+      .panel-heading{
+        color: black;
+        background-color: #fff;
+        border-color: #fff;
+      }
+      .list-group-item{
+        border: 0px;
+      }
+      .leftMenu{
+        border-bottom: 1px solid black;
+        margin-left: 0px;
+      }
+      .panel-title{
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+	  <div class="row" >
+		  <div class="col-xs-3" style="padding:0px;border-right: 1px solid black; height:100%; font-family:lora; position:fixed;font-size:18px; z-index:1000;">
+		  	<div class="panel-group table-responsive" role="tablist" style="padding-top:60px;">
+                    <div class="leftMenu" id="1">
+                        <!-- 利用data-target指定要折叠的分组列表 -->
+                        <div class="panel-heading" id="collapseListGroupHeading1" data-toggle="collapse" data-target="#collapseListGroup1" role="tab" >
+                            <h4 class="panel-title">
+                                Editorial
+                            </h4>
+                        </div>
+                        <!-- .panel-collapse和.collapse标明折叠元素 .in表示要显示出来 -->
+                        <div id="collapseListGroup1" class="collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1">
+                            <ul class="list-group">
+                              <li class="list-group-item" id="whitespace" onclick="showSectionById(this)">
+                                    <span class="glyphicon"></span>- White Space
+                              </li>
+                              <li class="list-group-item" id="bispace" onclick="showSectionById(this)">
+                                    <span class="glyphicon"></span>- Bi Space
+                              </li>
+                              <li class="list-group-item" id="mixedspace" onclick="showSectionById(this)">
+                                    <span class="glyphicon"></span>- Mixed Space
+                              </li>
+                              <li class="list-group-item" id="beijing" onclick="showSectionById(this)">
+                                    <span class="glyphicon"></span>- Beijing
+                              </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="leftMenu" id="2">
+                        <div class="panel-heading" id="collapseListGroupHeading2" data-toggle="collapse" data-target="#collapseListGroup2" role="tab" >
+                            <h4 class="panel-title">
+                                Branding
+                            </h4>
+                        </div>
+                        <div id="collapseListGroup2" class="collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
+                            <ul class="list-group">
+                              <li class="list-group-item" id="beast" onclick="showSectionById(this)">
+                                  <span class="glyphicon"></span>- Beast
+                              </li>
+                              <li class="list-group-item" id="blrs" onclick="showSectionById(this)">
+                                  <span class="glyphicon"></span>- BLRs
+                              </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="leftMenu"  id="3">
+                        <div class="panel-heading" id="collapseListGroupHeading3" data-toggle="collapse" data-target="#collapseListGroup3" role="tab" >
+                            <h4 class="panel-title">
+                                Data Vis
+                            </h4>
+                        </div>
+                        <div id="collapseListGroup3" class="collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2">
+                            <ul class="list-group">
+                              <li class="list-group-item" id="ultimatecolors" onclick="showSectionById(this)">
+                                  <span class="glyphicon"></span>- Ultimate Colors
+                              </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="leftMenu"  id="4">
+                        <div class="panel-heading" id="collapseListGroupHeading4" data-toggle="collapse" data-target="#collapseListGroup4" role="tab" >
+                            <h4 class="panel-title" id="contact" onclick="showSectionById(this)">
+                                Contact
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+		  </div>
+		  <div class="col-xs-12" style="padding:0px;min-height:50px; border-color:#080808; ">
+		  	<div class="col-xs-12" style="padding:0px;">
+		  		<div style="min-height:50px;border-bottom: 1px solid black; width:100%;">
+		  			<img src="img/duck.png" style="width:35px; margin-top:5px; margin-left:62%;" class="img-responsive" alt="Responsive image">
+		  		</div>
+          <div id="main" style="margin-left:28%; margin-top:20px;">
+              <div id="index" style="font-size:48px;font-family:Montserrat;">
+                <p>
+                  Hello,  My name is Tiange Chen. I was born and raised in Beijing and currently based in New York. I see design as a way to bond everyone and everything together. Let’s get connected today :)
+                </p>
+              </div>
+              <div id="whitespace_1" style="font-size:36px;font-family:Montserrat;">
+                <p>
+                  An Object -
+                  <br/>
+                  White Space is the first issue of the space series. All contents were generated based on a chosen object - facial cleanser. The book discusses the cleanness and the refreshness through a visual language with touches on different topics in different aspects of life ranges from body, intimate space to larger living environment.
+                  <br/>
+                </p>
+                <img src="img/white space/1.jpg" style="width:100%;padding-right:4%; margin-top:40px;" class="img-responsive" alt="Responsive image">
+                <img src="img/white space/2.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/white space/3.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/white space/4.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/white space/5.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+              </div>
+              <div id="bispace_1" style="font-size:36px;font-family:Montserrat;">
+                <p>
+                  An Image -
+                  <br/>
+Bi Space is the second issue among the three space issues. All contents were chosen based on an image that describes the hope and hopeless. The book plays with the orientation so one part is upside down compare with the other to visually show the two polar feelings. Readers have the choices either start from hope to hopeless or vice versa. There also a moment in the middle that illustrates the in-between feelings.
+                  <br/>
+                </p>
+                <img src="img/bi space/1.jpg" style="width:100%;padding-right:4%; margin-top:40px;" class="img-responsive" alt="Responsive image">
+                <img src="img/bi space/2.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/bi space/3.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/bi space/4.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/bi space/5.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+              </div>
+              <div id="mixedspace_1" style="font-size:36px;font-family:Montserrat;">
+                <p>
+                  A Word -
+                  <br/>
+Mixed space is the last issue of the space series. All contents are around the Chinese word “Jiang Hu.” The origin of the word is from China, but there is no comprehensive explanation in English. The word represents the naked society without any deceptive coverage. Within the Jiang Hu, there are different roles people are playing, and those roles exist in western societies as well. The mixed space borrows this concept and creates a Jiang Hu in the western world.
+                  <br/>
+                </p>
+                <img src="img/mixed space/1.jpg" style="width:100%;padding-right:4%; margin-top:40px;" class="img-responsive" alt="Responsive image">
+                <img src="img/mixed space/2.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/mixed space/3.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/mixed space/4.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/mixed space/5.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+              </div>
+              <div id="beijing_1" style="font-size:36px;font-family:Montserrat;">
+                <p>
+                  The memoire, Beijing, explores the notion of home as both a physical place and a memory. Composed of archival materials ranging from newspapers to maps, this book reviews the social, political, and physical changes of Beijing over the span of twenty-one years alongside my memories. It is memorabilia and memory, collective narrative and personal experience.
+                  <br/>
+                </p>
+                <img src="img/Beijing/1.jpg" style="width:100%;padding-right:4%; margin-top:40px;" class="img-responsive" alt="Responsive image">
+                <img src="img/Beijing/2.gif" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/Beijing/3.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/Beijing/4.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/mixed space/5.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+
+              </div>
+              <div id="beast_1" style="font-size:36px;font-family:Montserrat;">
+                <p>
+                  The project is branding for an off-road vehicle called BEAST. It incorporates artificial intelligence to make off-roading safer, freer, more caring and more accessible. It is for people who might lack of off-roading experience but love adventure and enjoy the wild nature to feel the adrenaline rush without any concerns and anxieties.
+                  <br/>
+                </p>
+                <img src="img/beast/1.jpg" style="width:100%;padding-right:4%; margin-top:40px;" class="img-responsive" alt="Responsive image">
+                <img src="img/beast/2.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/beast/3.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/beast/4.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/beast/5.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+              </div>
+              <div id="blrs_1" style="font-size:36px;font-family:Montserrat;">
+                <p>
+                  This collaboration branding project is for BLR, which is a literary journal about medicine and human experience that touches the hearts of our healthcare professionals, patients, caregivers, artists, poets, and writers by fostering understanding through poetry and stories from multiple perspectives. It aims to bring empathy, kindness, and thoughtfulness into the lives of our readers by inspiring people to live their lives with open-mindedness and awareness of our shared human experience.
+                  <br/>
+                </p>
+                <img src="img/blr/1.jpg" style="width:100%;padding-right:4%; margin-top:40px;" class="img-responsive" alt="Responsive image">
+                <img src="img/blr/2.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/blr/3.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/blr/4.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+                <img src="img/blr/5.jpg" style="width:100%;padding-right:4%; margin-top:20px;" class="img-responsive" alt="Responsive image">
+              </div>
+              <div id="ultimatecolors_1" style="font-size:36px;font-family:Montserrat;">
+                <p>
+                  Ultimate Colors is a data visualization project that analysis the color palette for 3256 top rated movie posters among 20 categories. The project uses python as the primary way to gather all posters and uses color summarizer to generate the color code. The ratio of each color within the color block corresponds to the ratio of the color used in the actual movie poster.
+                  <br/>
+                </p>
+              </div>
+              <div id="contact_1" style="font-size:20px;font-family:Montserrat;">
+                <p>
+                <span style="font-size:36px;">Feel free to say Hi :)</span>
+                <br/>
+                <br/>
+                Email: <a href="mailto:chent328@newschool.edu" style="color:black;  "target="_top">chent328@newschool.edu</a>
+                <br/>
+                <br/>
+                Instagram: <a href="https://www.instagram.com/tiangec_design/?hl=en" style="color:black;  "target="_top">tiangec_design</a>
+                </p>
+              </div>
+          </div>
+		  	</div>
+		  </div>
+		</div>
+	</div>
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $('#main').children().hide();
+          $('#index').show();
+        });
+        function showSectionById(ob){
+          var id=$(ob).attr("id");
+          //alert(id);
+          $('#main').children().hide();
+          $('#' + id + "_1").show();
+          $('#whitespace').parent().children().each(function (){
+              $("#"+$(this).attr('id')).attr("style","color:#000;");
+          })
+          $('#blrs').parent().children().each(function (){
+              $("#"+$(this).attr('id')).attr("style","color:#000;");
+          })
+          $('#ultimatecolors').parent().children().each(function (){
+              $("#"+$(this).attr('id')).attr("style","color:#000;");
+          })
+          $('#'+id).attr("style","color:gray;");
+          console.log($('#'+id).parent().parent().parent().attr("id"));
+          $('#collapseListGroupHeading1').attr("style","color:#balck;");
+          $('#collapseListGroupHeading2').attr("style","color:#balck;");
+          $('#collapseListGroupHeading3').attr("style","color:#balck;");
+          $('#collapseListGroupHeading4').attr("style","color:#balck;");
+          $('#collapseListGroupHeading'+$('#'+id).parent().parent().parent().attr("id")).attr("style","color:#000;");
+        };
+    </script>
+  </body>
+</html>
